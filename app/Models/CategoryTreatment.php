@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class AdhfRecord extends Model
+class CategoryTreatment extends Model
 {
     use HasFactory;
+    protected $table = 'CategoryTreatment';
 }
